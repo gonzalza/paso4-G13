@@ -1,41 +1,39 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="menuingles.aspx.vb" Inherits="areasdeestudio" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="ingles.aspx.vb" Inherits="areasdeestudio" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>Menu Inglés</title>
+    <title>Inglés</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <link rel="stylesheet" type="text/css" href="css/areas.css" />
+    <link rel="stylesheet" type="text/css" href="css/ingles.css" />
 
     
 </head>
 <body>
     <form runat="server">
-       <div>
-        <picture id="unad" >
-            <img src="img/unad1.png" alt="" width="629" height="163" />
+       <div class="flex-container">
+            <div id="unad" >
+                <img src="img/unad1.png" alt="" width="800" height="163" />
 
-        </picture>
+            </div>
         
-    </div>
-
-    <div id="titulo">
-        <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h1>
-        <h1>AREAS DE ESTUDIO</h1>
-    </div>
+            <div id="titulo">
+                <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h1>
+        
+            </div>
+        </div>
 
     <div  class="flex-container botones">
        
-        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="INGLÉS 0" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
+        <asp:Button ID="Button1" CssClass="btn" runat="server" Text="TEMA 1" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
        
-        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="INGLÉS 1" Height="80px" Width="280px" />
+        <asp:Button ID="Button2"  CssClass="btn" runat="server" Text="EVALUACIÓN 1" Height="80px" Width="280px" />
 
-        <asp:Button ID="Button3" CssClass="btn" runat="server" Text="SCRACTH" Height="80px" Width="280px" />
-    
+        
     </div>
 
     
