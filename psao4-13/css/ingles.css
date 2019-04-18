@@ -1,6 +1,8 @@
 ﻿body {
 }
-
+.flex-container {
+    display: flex;
+}
 #unad {
     
     
@@ -9,35 +11,33 @@
 #titulo {
     
     
-    
-    margin-top: 50px;
-    padding: 10px;
     text-align: center;
+   
+    
     color: blue;
 }
+#uno{
+    margin-left: 286px;
+}
+#ingles {
+    text-align: center;
+    margin-left: 136px;
+}
+#dos {
+    margin-left: 136px;
+}
+.botones{
 
+    margin-top: 40px;
+}
 #Button1 {
-    margin-left: 182px;
+    margin-left: 400px;
 }
 
 #Button2  {
     margin-left: 60px;
 }
-#Button3 {
-    margin-left: 60px;
-}
 
-#Button4 {
-    margin-left: 182px;
-}
-#Button5 {
-    margin-left: 60px;
-}
-#Button6 {
-    margin-left: 60px;
-}
-.botones{
-    padding-top: 30px;
 
 }
 .btn {

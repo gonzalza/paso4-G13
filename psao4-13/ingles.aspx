@@ -16,17 +16,28 @@
 <body>
     <form runat="server">
        <div class="flex-container">
-            <div id="unad" >
+            <div id="unad" class="col-lg-10" >
                 <img src="img/unad1.png" alt="" width="800" height="163" />
 
             </div>
         
-            <div id="titulo">
+            <div id="titulo" class="col-lg-2">
                 <h1>PROCESO: ENSEÑANZA Y APRENDIZAJE PARA ESTUDIANTES</h1>
         
             </div>
         </div>
+        <div class="flex-container">
+            <div id="uno" class="col-lg-4">
+                <img src="img/INGLES.PNG" alt="" width="220" height="100" />
+            </div>
+            <div id="ingles"class="col-lg-4">
+                <h1> INGLÉS</h1>
 
+            </div>
+            <div id="dos" class="col-lg-4">
+                <img src="img/INGLES.PNG" alt="" width="220" height="100" />
+            </div>
+        </div>
     <div  class="flex-container botones">
        
         <asp:Button ID="Button1" CssClass="btn" runat="server" Text="TEMA 1" Height="80px" Width="280px" ImangeUrl="img/INGLES2.png" />
