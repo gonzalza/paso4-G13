@@ -31,7 +31,7 @@
                 <img src="img/INGLES.PNG" alt="" width="220" height="100" />
             </div>
             <div id="ingles"class="col-lg-4">
-                <h1> INGLÉS 22222</h1>
+                <h1> INGLÉS </h1>
 
             </div>
             <div id="dos" class="col-lg-4">
